@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO -->
+  <title>Generation Future Hub | Japanese Language Training & Study in Japan Consultancy - Gorkha, Nepal</title>
+  <meta name="description" content="Generation Future Hub offers Japanese language training (JLPT N5–N2), student visa, working visa counseling, and documentation support for Nepalese students wanting to study or work in Japan. Located in Gorkha, Nepal.">
+  <meta name="keywords" content="Japanese language training Nepal, JLPT N5 N4 N3 N2, study in Japan, work in Japan, student visa Japan, Gorkha Nepal, Generation Future Hub">
+  <meta name="author" content="Generation Future Hub">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Generation Future Hub | Study & Work in Japan">
+  <meta property="og:description" content="Your trusted partner for Japanese language training and Japan visa consultancy in Gorkha, Nepal.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/logo.jpg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="images/logo.jpg">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== PRELOADER ========== -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-kanji">未来</div>
+      <div class="preloader-text">Generation Future Hub</div>
+      <div class="preloader-bar"><div class="preloader-progress"></div></div>
+    </div>
+  </div>
+
+  <!-- ========== CUSTOM CURSOR ========== -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo" aria-label="Home">
+        <img src="images/logo.jpg" alt="Generation Future Hub" width="40" height="40">
+        <div class="nav-logo-text">
+          <span class="nav-brand">Generation Future Hub</span>
+          <span class="nav-sub">Your Future Starts Here</span>
+        </div>
+      </a>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active" data-text="Home">Home</a>
+        <a href="#about" class="nav-link" data-text="About">About</a>
+        <a href="#courses" class="nav-link" data-text="Courses">Courses</a>
+        <a href="#services" class="nav-link" data-text="Services">Services</a>
+        <a href="#testimonials" class="nav-link" data-text="Reviews">Reviews</a>
+        <a href="#contact" class="nav-link cta-link">
+          <span>Free Consultation</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <!-- Sakura petals canvas -->
+    <canvas id="sakuraCanvas" class="hero-canvas"></canvas>
+    
+    <!-- Gradient orbs -->
+    <div class="hero-orb hero-orb--1"></div>
+    <div class="hero-orb hero-orb--2"></div>
+    <div class="hero-orb hero-orb--3"></div>
+
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-eyebrow anim-hero" data-delay="0">
+          <span class="eyebrow-line"></span>
+          Japanese Language & Visa Consultancy
+        </div>
+
+        <h1 class="hero-title">
+          <span class="title-line anim-hero" data-delay="100">
+            <span class="title-word">Your Gateway to</span>
+          </span>
+          <span class="title-line anim-hero" data-delay="200">
+            <span class="title-word gradient-text">Study & Work</span>
+          </span>
+          <span class="title-line anim-hero" data-delay="300">
+            <span class="title-word gradient-text">in Japan</span>
+          </span>
+        </h1>
+
+        <p class="hero-desc anim-hero" data-delay="400">
+          Master the Japanese language from JLPT N5 to N2. Complete visa support, 
+          documentation, and counseling to make your Japan dream a reality.
+        </p>
+
+        <div class="hero-actions anim-hero" data-delay="500">
+          <a href="#courses" class="btn btn-glow">
+            <span>Explore Courses</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-glass">
+            <span>Free Consultation</span>
+          </a>
+        </div>
+
+        <div class="hero-metrics anim-hero" data-delay="600">
+          <div class="metric">
+            <span class="metric-val" data-count="500" data-suffix="+">0</span>
+            <span class="metric-label">Students Trained</span>
+          </div>
+          <div class="metric-sep"></div>
+          <div class="metric">
+            <span class="metric-val" data-count="95" data-suffix="%">0</span>
+            <span class="metric-label">Visa Success</span>
+          </div>
+          <div class="metric-sep"></div>
+          <div class="metric">
+            <span class="metric-val">N5–N2</span>
+            <span class="metric-label">JLPT Levels</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual anim-hero" data-delay="300">
+        <div class="hero-img-wrap">
+          <img src="images/japan-scenery.png" alt="Japan scenery with cherry blossoms" width="600" height="500" loading="eager">
+          <div class="hero-img-grain"></div>
+        </div>
+        <!-- Floating badges -->
+        <div class="float-badge float-badge--1">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          <span>JLPT Certified</span>
+        </div>
+        <div class="float-badge float-badge--2">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <span>95% Success</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-cue">
+      <span>Scroll to explore</span>
+      <div class="scroll-cue-line"><div class="scroll-cue-dot"></div></div>
+    </div>
+  </section>
+
+  <!-- ========== MARQUEE STRIP ========== -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>Japanese Language Training</span><span class="marquee-dot">✦</span>
+      <span>JLPT N5 to N2</span><span class="marquee-dot">✦</span>
+      <span>Student Visa Support</span><span class="marquee-dot">✦</span>
+      <span>Working Visa Japan</span><span class="marquee-dot">✦</span>
+      <span>Documentation & Counseling</span><span class="marquee-dot">✦</span>
+      <span>Gorkha, Nepal</span><span class="marquee-dot">✦</span>
+      <span>Japanese Language Training</span><span class="marquee-dot">✦</span>
+      <span>JLPT N5 to N2</span><span class="marquee-dot">✦</span>
+      <span>Student Visa Support</span><span class="marquee-dot">✦</span>
+      <span>Working Visa Japan</span><span class="marquee-dot">✦</span>
+      <span>Documentation & Counseling</span><span class="marquee-dot">✦</span>
+      <span>Gorkha, Nepal</span><span class="marquee-dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-media reveal-group">
+        <div class="about-img-main parallax-img">
+          <img src="images/classroom.png" alt="Classroom at Generation Future Hub" width="600" height="500" loading="lazy">
+        </div>
+        <div class="about-exp-badge glass-card">
+          <span class="exp-num">5+</span>
+          <span class="exp-text">Years of<br>Excellence</span>
+        </div>
+      </div>
+
+      <div class="about-body reveal-group">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title">Building Bridges Between <span class="gradient-text">Nepal & Japan</span></h2>
+        <p class="section-desc">
+          Generation Future Hub is a premier educational consultancy based in 
+          <strong>Shakti Chowk, Ward No. 6, Gorkha, Nepal</strong>. We specialize in 
+          Japanese language training and provide comprehensive support to Nepalese 
+          students aspiring to study or work in Japan.
+        </p>
+
+        <div class="feature-grid">
+          <div class="feature-item glass-card-light">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <div><h4>Expert Teachers</h4><p>Certified JLPT instructors</p></div>
+          </div>
+          <div class="feature-item glass-card-light">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div><h4>Result Oriented</h4><p>Proven JLPT pass rates</p></div>
+          </div>
+          <div class="feature-item glass-card-light">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <div><h4>Flexible Learning</h4><p>Classes that fit your schedule</p></div>
+          </div>
+          <div class="feature-item glass-card-light">
+            <div class="feature-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div><h4>Full Support</h4><p>Visa & documentation help</p></div>
+          </div>
+        </div>
+
+        <a href="#contact" class="btn btn-glow">
+          <span>Get in Touch</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COURSES ========== -->
+  <section class="courses" id="courses">
+    <div class="container">
+      <div class="section-header reveal-group">
+        <span class="section-tag">Our Courses</span>
+        <h2 class="section-title">Japanese Language Training</h2>
+        <p class="section-desc center">Master Japanese from beginner to advanced level with our structured JLPT preparation courses.</p>
+      </div>
+
+      <div class="courses-row">
+        <div class="course-card glass-card reveal-up" data-delay="0">
+          <div class="card-shine"></div>
+          <div class="course-header">
+            <span class="level-pill">N5</span>
+            <span class="duration-pill">3 Months</span>
+          </div>
+          <h3>Basic Japanese</h3>
+          <p class="course-tier">Beginner Level</p>
+          <p class="course-desc">Start your Japanese journey. Learn Hiragana, Katakana, basic Kanji, and everyday conversation.</p>
+          <ul class="course-list">
+            <li>Minna no Nihongo I</li>
+            <li>JLPT N5 Preparation</li>
+            <li>Basic Conversation</li>
+          </ul>
+          <a href="#contact" class="card-cta">Enroll Now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+
+        <div class="course-card glass-card reveal-up" data-delay="100">
+          <div class="card-shine"></div>
+          <div class="course-header">
+            <span class="level-pill">N4</span>
+            <span class="duration-pill">3 Months</span>
+          </div>
+          <h3>Elementary Japanese</h3>
+          <p class="course-tier">Elementary Level</p>
+          <p class="course-desc">Build on your basics. Expand vocabulary, learn intermediate grammar, improve reading.</p>
+          <ul class="course-list">
+            <li>Minna no Nihongo II</li>
+            <li>JLPT N4 Preparation</li>
+            <li>Daily Conversation</li>
+          </ul>
+          <a href="#contact" class="card-cta">Enroll Now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+
+        <div class="course-card glass-card featured reveal-up" data-delay="200">
+          <div class="card-shine"></div>
+          <div class="featured-tag">Most Popular</div>
+          <div class="course-header">
+            <span class="level-pill">N3</span>
+            <span class="duration-pill">4 Months</span>
+          </div>
+          <h3>Intermediate Japanese</h3>
+          <p class="course-tier">Intermediate Level</p>
+          <p class="course-desc">Achieve functional fluency. Understand natural-speed Japanese and express complex ideas.</p>
+          <ul class="course-list">
+            <li>Intermediate Materials</li>
+            <li>JLPT N3 Preparation</li>
+            <li>Business Basics</li>
+          </ul>
+          <a href="#contact" class="card-cta">Enroll Now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+
+        <div class="course-card glass-card reveal-up" data-delay="300">
+          <div class="card-shine"></div>
+          <div class="course-header">
+            <span class="level-pill">N2</span>
+            <span class="duration-pill">6 Months</span>
+          </div>
+          <h3>Advanced Japanese</h3>
+          <p class="course-tier">Advanced Level</p>
+          <p class="course-desc">Reach near-fluency. Master complex texts, advanced grammar, professional communication.</p>
+          <ul class="course-list">
+            <li>Advanced Materials</li>
+            <li>JLPT N2 Preparation</li>
+            <li>Business Japanese</li>
+          </ul>
+          <a href="#contact" class="card-cta">Enroll Now <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal-group">
+        <span class="section-tag">Our Services</span>
+        <h2 class="section-title">Visa & Documentation Support</h2>
+        <p class="section-desc center">Complete end-to-end support for your journey to Japan — from application to arrival.</p>
+      </div>
+
+      <div class="services-row">
+        <div class="service-card reveal-up" data-delay="0">
+          <div class="service-icon-wrap">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <h3>Student Visa Japan</h3>
+          <p>Comprehensive guidance for obtaining a Japanese student visa. We help you choose the right school and navigate the entire process.</p>
+          <ul class="service-checks">
+            <li>School selection & application</li>
+            <li>COE processing</li>
+            <li>Embassy interview prep</li>
+            <li>Pre-departure orientation</li>
+            <li>Airport pickup arrangement</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal-up" data-delay="150">
+          <div class="service-icon-wrap">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h3>Working Visa Japan</h3>
+          <p>Expert assistance for skilled workers seeking employment in Japan. We connect you with verified employers.</p>
+          <ul class="service-checks">
+            <li>Job matching with companies</li>
+            <li>Work permit documentation</li>
+            <li>SSW visa support</li>
+            <li>Technical Intern Training</li>
+            <li>Visa status change support</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal-up" data-delay="300">
+          <div class="service-icon-wrap">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h3>Documentation & Counseling</h3>
+          <p>Personalized support for every document and every decision — from first inquiry to departure.</p>
+          <ul class="service-checks">
+            <li>Document preparation</li>
+            <li>Translation services</li>
+            <li>Career counseling</li>
+            <li>Financial planning</li>
+            <li>Post-arrival support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== JOURNEY PROCESS ========== -->
+  <section class="journey">
+    <div class="container">
+      <div class="section-header reveal-group">
+        <span class="section-tag light">How It Works</span>
+        <h2 class="section-title light">Your Journey to Japan</h2>
+        <p class="section-desc center light">A guided 4-step process from enrollment to arrival in Japan.</p>
+      </div>
+
+      <div class="journey-timeline">
+        <div class="timeline-line"><div class="timeline-line-fill" id="timelineFill"></div></div>
+        
+        <div class="journey-node reveal-up" data-delay="0">
+          <div class="node-dot"><span>01</span></div>
+          <div class="node-content glass-card">
+            <h3>Consultation</h3>
+            <p>Meet our counselors, discuss your goals, and choose the right path for Japan.</p>
+          </div>
+        </div>
+
+        <div class="journey-node reveal-up" data-delay="150">
+          <div class="node-dot"><span>02</span></div>
+          <div class="node-content glass-card">
+            <h3>Language Training</h3>
+            <p>Enroll in JLPT courses (N5–N2) and build your Japanese proficiency.</p>
+          </div>
+        </div>
+
+        <div class="journey-node reveal-up" data-delay="300">
+          <div class="node-dot"><span>03</span></div>
+          <div class="node-content glass-card">
+            <h3>Documentation</h3>
+            <p>We handle visa application, COE processing, and all required paperwork.</p>
+          </div>
+        </div>
+
+        <div class="journey-node reveal-up" data-delay="450">
+          <div class="node-dot"><span>04</span></div>
+          <div class="node-content glass-card">
+            <h3>Fly to Japan</h3>
+            <p>Pre-departure orientation, flight guidance, and airport pickup — you're ready.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS BANNER ========== -->
+  <section class="stats-banner">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-block reveal-up" data-delay="0">
+          <span class="stat-val" data-count="500" data-suffix="+">0</span>
+          <span class="stat-lbl">Students Trained</span>
+        </div>
+        <div class="stat-block reveal-up" data-delay="100">
+          <span class="stat-val" data-count="95" data-suffix="%">0</span>
+          <span class="stat-lbl">Visa Success Rate</span>
+        </div>
+        <div class="stat-block reveal-up" data-delay="200">
+          <span class="stat-val" data-count="50" data-suffix="+">0</span>
+          <span class="stat-lbl">Partner Schools</span>
+        </div>
+        <div class="stat-block reveal-up" data-delay="300">
+          <span class="stat-val" data-count="5" data-suffix="+">0</span>
+          <span class="stat-lbl">Years Experience</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal-group">
+        <span class="section-tag">Testimonials</span>
+        <h2 class="section-title">What Our Students Say</h2>
+        <p class="section-desc center">Hear from students who achieved their Japan dreams with our guidance.</p>
+      </div>
+
+      <div class="testimonial-row">
+        <div class="testimonial-card glass-card reveal-up" data-delay="0">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"Generation Future Hub completely changed my life. I passed JLPT N3 on my first attempt and now I'm studying in Tokyo. The teachers are amazing!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">RS</div>
+            <div><h4>Ram Shrestha</h4><p>Now studying in Tokyo</p></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal-up" data-delay="150">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"The visa process seemed difficult, but the team made it easy. They helped with every document. Highly recommended!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">SG</div>
+            <div><h4>Sita Gurung</h4><p>Working in Osaka</p></div>
+          </div>
+        </div>
+
+        <div class="testimonial-card glass-card reveal-up" data-delay="300">
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">"I took classes from Kathmandu and the experience was excellent. Well-structured and interactive. Very flexible schedule!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AK</div>
+            <div><h4>Anish KC</h4><p>JLPT N2 Certified</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="cta">
+    <div class="cta-bg-grid"></div>
+    <div class="container reveal-group">
+      <h2>Ready to Start Your <span class="gradient-text-light">Japan Journey</span>?</h2>
+      <p>Contact us today for a free consultation. Let us help you build your future in Japan.</p>
+      <div class="cta-actions">
+        <a href="#contact" class="btn btn-white">
+          <span>Contact Now</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="https://wa.me/9779800000000?text=Hello!%20I'm%20interested%20in%20Japanese%20classes." class="btn btn-outline-light" target="_blank" rel="noopener">
+          <span>WhatsApp Us</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info reveal-group">
+        <span class="section-tag">Contact Us</span>
+        <h2 class="section-title">Let's Start Your Journey</h2>
+        <p class="section-desc">Have questions? Reach out — we're here to help!</p>
+
+        <div class="info-items">
+          <div class="info-item">
+            <div class="info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div><h4>Our Location</h4><p>Shakti Chowk, Ward No. 6, Gorkha, Nepal</p></div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.58 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div><h4>Phone</h4><a href="tel:+9779800000000">+977 9800000000</a></div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div><h4>Email</h4><a href="mailto:info@generationfuturehub.com">info@generationfuturehub.com</a></div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div><h4>Office Hours</h4><p>Sun–Fri: 7AM–6PM &nbsp;|&nbsp; Sat: 8AM–2PM</p></div>
+          </div>
+        </div>
+
+        <div class="social-row">
+          <a href="#" class="social-btn" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" class="social-btn" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" class="social-btn" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2-2C19.7 3.7 12 3.7 12 3.7s-7.7 0-9.5.5a3 3 0 0 0-2 2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 0 0 2 2c1.8.5 9.5.5 9.5.5s7.7 0 9.5-.5a3 3 0 0 0 2-2c.5-1.8.5-5.8.5-5.8s0-4-.5-5.8zM9.5 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a>
+          <a href="https://wa.me/9779800000000" class="social-btn" aria-label="WhatsApp" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1s-1.2-.4-2.3-1.4c-.9-.8-1.4-1.7-1.6-2s0-.5.1-.6l.4-.5.3-.4c.1-.2.1-.3 0-.4s-.7-1.6-.9-2.2c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.3s-1 1-1 2.4 1 2.8 1.2 3 2 3.1 4.9 4.3c.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.2.2-1.3 0-.2-.2-.3-.4-.4z"/></svg></a>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap glass-card reveal-group">
+        <h3>Send Us a Message</h3>
+        <p>We'll get back to you within 24 hours.</p>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Your first name" required>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name *</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Your last name" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="+977 98XXXXXXXX">
+          </div>
+          <div class="form-group">
+            <label for="interest">I'm Interested In *</label>
+            <select id="interest" name="interest" required>
+              <option value="" disabled selected>Select a service</option>
+              <option value="n5">JLPT N5 Course</option>
+              <option value="n4">JLPT N4 Course</option>
+              <option value="n3">JLPT N3 Course</option>
+              <option value="n2">JLPT N2 Course</option>
+              <option value="student-visa">Student Visa</option>
+              <option value="working-visa">Working Visa</option>
+              <option value="docs">Documentation</option>
+              <option value="counseling">General Counseling</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your goals..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-glow full-w">
+            <span>Send Message</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </form>
+
+        <div class="form-success" id="formSuccess">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#2ECC71" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <h4>Message Sent!</h4>
+          <p>Thank you — we'll get back within 24 hours.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="images/logo.jpg" alt="Logo" width="44" height="44">
+          <p>Your trusted partner for Japanese language training and Japan visa consultancy. Building bridges between Nepal and Japan since 2021.</p>
+          <div class="social-row">
+            <a href="#" class="social-btn sm" aria-label="Facebook"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" class="social-btn sm" aria-label="Instagram"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" class="social-btn sm" aria-label="YouTube"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2-2C19.7 3.7 12 3.7 12 3.7s-7.7 0-9.5.5a3 3 0 0 0-2 2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 0 0 2 2c1.8.5 9.5.5 9.5.5s7.7 0 9.5-.5a3 3 0 0 0 2-2c.5-1.8.5-5.8.5-5.8s0-4-.5-5.8zM9.5 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg></a>
+            <a href="https://wa.me/9779800000000" class="social-btn sm" aria-label="WhatsApp" target="_blank"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1s-1.2-.4-2.3-1.4c-.9-.8-1.4-1.7-1.6-2s0-.5.1-.6l.4-.5.3-.4c.1-.2.1-.3 0-.4s-.7-1.6-.9-2.2c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.3s-1 1-1 2.4 1 2.8 1.2 3 2 3.1 4.9 4.3c.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.2.2-1.3 0-.2-.2-.3-.4-.4z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a><a href="#about">About Us</a><a href="#courses">Courses</a><a href="#services">Services</a><a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Courses</h4>
+          <a href="#courses">JLPT N5 – Basic</a><a href="#courses">JLPT N4 – Elementary</a><a href="#courses">JLPT N3 – Intermediate</a><a href="#courses">JLPT N2 – Advanced</a>
+        </div>
+        <div class="footer-col">
+          <h4>Stay Updated</h4>
+          <p>Subscribe for the latest updates on courses and enrollment.</p>
+          <form class="newsletter" onsubmit="event.preventDefault();this.reset();alert('Thanks for subscribing!');">
+            <input type="email" placeholder="Your email" required aria-label="Email">
+            <button type="submit">→</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear">2026</span> Generation Future Hub. All rights reserved.</p>
+        <p>Shakti Chowk, Ward No. 6, Gorkha, Nepal &nbsp;|&nbsp; <a href="tel:+9779800000000">+977 9800000000</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== WHATSAPP FLOAT ========== -->
+  <a href="https://wa.me/9779800000000?text=Hello!%20I'm%20interested%20in%20Japanese%20language%20classes." class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg viewBox="0 0 32 32"><path d="M16.004 0h-.008C7.174 0 0 7.176 0 16c0 3.5 1.129 6.742 3.047 9.379L1.054 31.29l6.138-1.962A15.907 15.907 0 0016.004 32C24.826 32 32 24.822 32 16S24.826 0 16.004 0zm9.335 22.594c-.39 1.1-1.932 2.013-3.17 2.28-.847.18-1.953.323-5.676-1.22-4.763-1.975-7.825-6.81-8.063-7.125-.23-.316-1.906-2.54-1.906-4.844s1.207-3.436 1.635-3.907c.39-.43.926-.607 1.243-.607.148 0 .282.007.402.013.428.018.643.044.925.716.352.84 1.21 2.948 1.315 3.163.108.215.215.502.068.802-.14.306-.263.497-.478.747-.215.25-.452.557-.645.747-.215.215-.438.45-.188.883.25.43 1.113 1.833 2.39 2.97 1.64 1.458 3.02 1.91 3.45 2.12.43.215.682.183.932-.108.255-.296 1.087-1.264 1.377-1.7.285-.43.575-.355.967-.215.395.14 2.502 1.18 2.93 1.395.43.215.716.323.822.502.104.178.104 1.038-.286 2.138z"/></svg>
+    <span class="wa-tooltip">Chat with us!</span>
+  </a>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
